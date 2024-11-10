@@ -6,14 +6,14 @@ This project demonstrates a simple implementation of an RDBMS with custom indexi
 
 ## Key Features
 
-### B-Tree Indexing: Custom implementation of B-Tree data structures to create indexes.
+B-Tree Indexing: Custom implementation of B-Tree data structures to create indexes.
 
-### Page Scan vs Index Seek: Comparison between the performance of page scans (without indexes) and index seeks (with B-Tree indexes).
+Page Scan vs Index Seek: Comparison between the performance of page scans (without indexes) and index seeks (with B-Tree indexes).
 
-### Improved Query Performance: By using index seeks, the number of data pages read from the disk is minimized, leading to faster query execution.
+Improved Query Performance: By using index seeks, the number of data pages read from the disk is minimized, leading to faster query execution.
 
 ## How It Works
 
-### Without Index: Queries are served by performing a full page scan, which requires reading all data pages.
+Without Index: Queries are served by performing a full page scan, which requires reading all data pages.
 
-### With Index: An index is created using B-Trees, which allows queries to be executed using index seek. This reduces disk I/O and improves performance by loading fewer data pages.
+With Index: An index is created using B-Trees, which allows queries to be executed using index seek. This reduces disk I/O and improves performance by loading fewer data pages.
